@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".SignInActivity"
+    tools:deviceIds="wear">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center">
+
+        </ImageView>
+
+        <EditText
+            android:id="@+id/edEmail"
+            android:layout_width="100sp"
+            android:layout_height="25sp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"
+            android:textSize="12sp"
+            android:textColorHint="@color/aquamarine"
+            android:background="@drawable/edittextdesign"
+            android:layout_marginTop="5sp"
+            android:paddingLeft="5sp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/edPassword"
+            android:layout_width="100sp"
+            android:layout_height="25sp"
+            android:hint="@string/pass"
+            android:textSize="12sp"
+            android:inputType="textPassword"
+            android:textColorHint="@color/aquamarine"
+            android:background="@drawable/edittextdesign"
+            android:layout_marginTop="5sp"
+            android:paddingLeft="5sp">
+
+        </EditText>
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5sp"
+            android:onClick="Enter"
+            android:background="@drawable/bt_shape"
+            android:text="@string/sign_in"
+            android:textAllCaps="false"
+            android:textSize="10sp"
+            android:layout_gravity="center">
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

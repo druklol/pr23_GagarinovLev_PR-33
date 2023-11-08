@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MADVENTURE</string>
+    <string name="hello_world">From the Square world,\nHello, %1$s!</string>
+    <string name="tile_label">Example tile</string>
+    <string name="title_activity_presentation._main">presentation.MainActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="complication_label">Example complication</string>
+    <string name="title_activity_presentation._sign_in">presentation.SignInActivity</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_presentation._result">presentation.ResultActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="go_to_wordSkills">Go to \n WorldSkills 2019</string>
+    <string name="steps">10.000 steps</string>
+    <string name="description">Description</string>
+    <string name="text_google">Как бы Google ни позиционировала Wear OS,
+        платформа основана на Android со всеми его особенностями,
+        прелестями и недостатками. Поэтому,
+        если вы уже знакомы с Android-разработкой,
+        то сложностей с Wear OS возникнуть не должно.
+        Wear OS почти не отличается от своего «старшего брата»,
+        за исключением отсутствия некоторых пакетов</string>
+    <string name="send">Send result</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+</resources>
